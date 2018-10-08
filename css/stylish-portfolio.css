@@ -85,6 +85,14 @@ h6 {
   font-weight: 800;
 }
 
+#contactpagina {
+  background-image: url("/img/Backgrounds/3.jpg");
+}
+
+#about {
+  background-image: url("/img/Backgrounds/1.jpg");
+}
+
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -93,17 +101,30 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/Backgrounds/achtergrond5.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Backgrounds/achtergrond5.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/Backgrounds/achtergrond14.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Backgrounds/achtergrond14.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .masthead h1 {
+  font-family: Great_vibes, serif;
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  color: #fff;
+}
+
+@font-face {
+  .masthead {
+    font-family: Greatvibes-Regular;
+    src: "img/Fonts/Font4";
+  }
+}
+
+.masthead #jvs {
+  font-family: Greatvibes-Regular, monospace;
 }
 
 @media (min-width: 992px) {
@@ -111,7 +132,7 @@ h6 {
     height: 100vh;
   }
   .masthead h1 {
-    font-size: 5.5rem;
+    font-size: 7.5rem;
   }
 }
 
@@ -126,7 +147,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background-image: url("/img/Backgrounds/Urkkleuren.jpg");
+  background-color: #1D809F;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -142,8 +163,9 @@ h6 {
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   padding: 30px;
+  font-family: mellony,Serif;
 }
 
 .sidebar-nav li a:hover {
@@ -206,7 +228,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #fff;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -214,6 +236,26 @@ h6 {
   font-size: 2.25rem;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+#servicebiblejournaling {
+  background-color: #D76B02;
+}
+
+#servicegastspreekster {
+  background-color: #DCB103;
+}
+
+#servicehandlettering {
+  background-color: #F94526;
+}
+
+#serviceschilderen {
+  background-color: #8698B6;
+}
+
+#services {
+  background-image: url("/img/Backgrounds/4.jpg");
 }
 
 .callout {
@@ -233,12 +275,16 @@ h6 {
 }
 
 body {
-  font-family: Verdana, sans-serif;
+  font-family: mellony, sans-serif;
   margin: 0;
 }
 
+#portfolio {
+  background-image: url("/img/Backgrounds/5.jpg");
+}
+
 .content-section {
-  background-color: #B08EA2;
+  background-color: white;
 }
 
 * {
@@ -319,7 +365,7 @@ body {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 50px;
   -webkit-transition: 0.6s ease;
@@ -385,6 +431,7 @@ img.hover-shadow {
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background-image: url("/img/Backgrounds/1.jpg");
 }
 
 footer.footer .social-link {
