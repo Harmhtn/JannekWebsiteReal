@@ -1,9 +1,13 @@
 body {
-  font-family: mellony, sans-serif;
+  font-family: 'Great Vibes', cursive;
   margin: 0;
+  color: $white;
 }
 #portfolio{
-  background-image: url("/img/Backgrounds/5.jpg");
+  background-image: url('/img/Backgrounds/achtergrond12.jpg');
+  background-size:cover;
+
+  
 }
 .content-section{
   background-color: white;
@@ -142,4 +146,9 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carousel-caption {
+  font-family: Arial;
+  color: yellow;
 }

@@ -19,8 +19,8 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .content-section-heading h2 {
@@ -68,7 +68,7 @@ h6 {
   width: 50px;
   height: 50px;
   text-align: center;
-  color: black;
+  color: white;
   background: rgba(52, 58, 64, 0.5);
   line-height: 45px;
 }
@@ -86,52 +86,52 @@ h6 {
 }
 
 #contactpagina {
-  background-image: url("/img/Backgrounds/3.jpg");
+  background-color: #343a40;
 }
 
 #about {
-  background-image: url("/img/Backgrounds/1.jpg");
+  background-image: url("/img/Backgrounds/achtergrond7.jpg");
+  background-size: cover;
+  color: wheat;
 }
 
-.masthead {
+#portfolio {
+  color: wheat;
+}
+
+body .masthead {
   min-height: 30rem;
   position: relative;
   display: table;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/Backgrounds/achtergrond14.jpg");
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Backgrounds/achtergrond14.jpg");
   background-position: center center;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
-.masthead h1 {
-  font-family: Great_vibes, serif;
-  font-size: 4rem;
-  margin: 0;
-  padding: 0;
-  color: #fff;
+body #jvs {
+  font-family: 'Great Vibes', cursive;
+  font-size: 160px;
+  color: white;
 }
 
-@font-face {
-  .masthead {
-    font-family: Greatvibes-Regular;
-    src: "img/Fonts/Font4";
-  }
-}
-
-.masthead #jvs {
-  font-family: Greatvibes-Regular, monospace;
+body #sio {
+  color: black;
+  font-family: 'Cinzel', serif;
+  font-size: 50px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 @media (min-width: 992px) {
-  .masthead {
+  body {
     height: 100vh;
   }
-  .masthead h1 {
+  body h1 {
     font-size: 7.5rem;
   }
 }
@@ -165,7 +165,6 @@ h6 {
   text-decoration: none;
   color: #fff;
   padding: 30px;
-  font-family: mellony,Serif;
 }
 
 .sidebar-nav li a:hover {
@@ -207,7 +206,7 @@ h6 {
 
 .menu-toggle {
   position: fixed;
-  right: 15px;
+  right: 150px;
   top: 15px;
   width: 75px;
   height: 75px;
@@ -226,7 +225,7 @@ h6 {
   background: #343a40;
 }
 
-.service-icon {
+body .service-icon {
   background-color: #fff;
   color: #fff;
   height: 7rem;
@@ -238,24 +237,31 @@ h6 {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-#servicebiblejournaling {
+body #servicebiblejournaling {
   background-color: #D76B02;
 }
 
-#servicegastspreekster {
+body #servicegastspreekster {
   background-color: #DCB103;
 }
 
-#servicehandlettering {
+body #servicehandlettering {
   background-color: #F94526;
 }
 
-#serviceschilderen {
+body #serviceschilderen {
   background-color: #8698B6;
 }
 
-#services {
-  background-image: url("/img/Backgrounds/4.jpg");
+body #services {
+  background-color: #fff;
+  background-size: cover;
+  font-family: Arial;
+  color: white;
+}
+
+body #services {
+  background-color: #ff6871;
 }
 
 .callout {
@@ -275,12 +281,14 @@ h6 {
 }
 
 body {
-  font-family: mellony, sans-serif;
+  font-family: 'Great Vibes', cursive;
   margin: 0;
+  color: #fff;
 }
 
 #portfolio {
-  background-image: url("/img/Backgrounds/5.jpg");
+  background-image: url("/img/Backgrounds/achtergrond12.jpg");
+  background-size: cover;
 }
 
 .content-section {
@@ -428,10 +436,18 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.carousel-caption {
+  font-family: Arial;
+  color: yellow;
+}
+
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-image: url("/img/Backgrounds/1.jpg");
+  font-family: Arial;
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #343a40;
+  background-size: cover;
 }
 
 footer.footer .social-link {
@@ -454,6 +470,7 @@ footer.footer .social-link:hover {
 
 a {
   color: #1D809F;
+  font-family: Arial !important;
 }
 
 a:hover, a:focus, a:active {
@@ -463,7 +480,8 @@ a:hover, a:focus, a:active {
 .btn-primary {
   background-color: #1D809F !important;
   border-color: #1D809F !important;
-  color: #fff !important;
+  color: white !important;
+  font-family: Arial !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -474,7 +492,8 @@ a:hover, a:focus, a:active {
 .btn-secondary {
   background-color: #ecb807 !important;
   border-color: #ecb807 !important;
-  color: #fff !important;
+  color: white !important;
+  font-family: Arial !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
@@ -483,7 +502,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-dark {
-  color: #fff !important;
+  color: white !important;
+  font-family: Arial !important;
 }
 
 .btn {
@@ -498,8 +518,10 @@ a:hover, a:focus, a:active {
 
 .text-primary {
   color: #1D809F !important;
+  font-family: 'Great Vibes', cursive !important;
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: white !important;
+  font-family: 'Great Vibes', cursive !important;
 }

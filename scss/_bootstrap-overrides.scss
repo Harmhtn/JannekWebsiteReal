@@ -1,5 +1,6 @@
 a {
   color: $primary;
+  font-family: Arial !important;
   &:hover,
   &:focus,
   &:active {
@@ -10,7 +11,8 @@ a {
 .btn-primary {
   background-color: $primary !important;
   border-color: $primary !important;
-  color: $white !important;
+  color: white !important;
+  font-family: Arial !important;
   &:hover,
   &:focus,
   &:active {
@@ -22,7 +24,8 @@ a {
 .btn-secondary {
   background-color: $secondary !important;
   border-color: $secondary !important;
-  color: $white !important;
+  color: white !important;
+  font-family: Arial !important;
   &:hover,
   &:focus,
   &:active {
@@ -32,7 +35,8 @@ a {
 }
 
 .btn-dark {
-  color: $white !important;
+  color: white !important;
+  font-family: Arial !important;
 }
 
 .btn {
@@ -46,8 +50,10 @@ a {
 
 .text-primary {
   color: $primary !important;
+  font-family: 'Great Vibes', cursive !important;
 }
 
 .text-secondary {
-  color: $secondary !important;
+  color: white !important;
+  font-family: 'Great Vibes', cursive !important;
 }

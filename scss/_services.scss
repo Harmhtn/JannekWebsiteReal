@@ -1,31 +1,41 @@
-.service-icon {
-  background-color: $white;
-  color: $white;
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
+body {
+  .service-icon {
+    background-color: $white;
+    color: $white;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  }
 
-#servicebiblejournaling{
-  background-color: #D76B02;
+  #servicebiblejournaling {
+    background-color: #D76B02;
 
-}
+  }
 
-#servicegastspreekster{
-  background-color: #DCB103;
-}
+  #servicegastspreekster {
+    background-color: #DCB103;
+  }
 
-#servicehandlettering{
-  background-color: #F94526;
-}
+  #servicehandlettering {
+    background-color: #F94526;
+  }
 
-#serviceschilderen{
-  background-color: #8698B6;
-}
+  #serviceschilderen {
+    background-color: #8698B6;
+  }
 
-#services{
-  background-image: url("/img/Backgrounds/4.jpg");
+  #services {
+    background-color: $white;
+    background-size: cover;
+    font-family: Arial;
+    color: white;
+  }
+
+  #services {
+
+    background-color: #ff6871;
+  }
 }
