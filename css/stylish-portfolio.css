@@ -86,17 +86,17 @@ h6 {
 }
 
 #contactpagina {
-  background-color: #343a40;
+  background-color: #ff6871;
 }
 
 #about {
-  background-image: url("/img/Backgrounds/achtergrond7.jpg");
+  background-image: url("/img/Backgrounds/achtergrond1.jpg");
   background-size: cover;
   color: white;
 }
 
 #portfolio {
-  color: wheat;
+  color: white;
 }
 
 body .masthead {
@@ -311,7 +311,7 @@ footer.footer {
   color: #fff;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #343a40;
+  background-color: #ff6871;
   background-size: cover;
 }
 
