@@ -1,5 +1,5 @@
 body {
-  font-family: 'Great Vibes', cursive;
+  font-family: Arial;
   margin: 0;
   color: $white;
 }
@@ -19,5 +19,17 @@ body {
   .thumb{
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+  .gallery {
+    margin: 10px 50px;
+  }
+  .gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+  }
+  .gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
   }
 }

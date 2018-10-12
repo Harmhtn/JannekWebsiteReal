@@ -23,12 +23,16 @@ body {
   padding-bottom: 5rem;
 }
 
+.content-section-heading h1 {
+  font-size: 5.9vw;
+}
+
 .content-section-heading h2 {
-  font-size: 3rem;
+  font-size: 3.0vh;
 }
 
 .content-section-heading h3 {
-  font-size: 1rem;
+  font-size: 1vmin;
   text-transform: uppercase;
 }
 
@@ -107,16 +111,16 @@ body .masthead {
   height: 100%;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/Backgrounds/achtergrond14.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Backgrounds/achtergrond14.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/Backgrounds/achtergrond11.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Backgrounds/achtergrond11.jpg");
   background-position: center center;
   background-size: cover;
 }
 
 body #jvs {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Tangerine', cursive;
   font-size: 160px;
-  color: white;
+  color: #ffcb00;
 }
 
 body #sio {
@@ -206,10 +210,10 @@ body #sio {
 
 .menu-toggle {
   position: fixed;
-  right: 150px;
-  top: 15px;
-  width: 75px;
-  height: 75px;
+  right: 5px;
+  top: 5px;
+  width: 50px;
+  height: 50px;
   text-align: center;
   color: #fff;
   background: rgba(52, 58, 64, 0.5);
@@ -281,7 +285,7 @@ body #services {
 }
 
 body {
-  font-family: 'Great Vibes', cursive;
+  font-family: Arial;
   margin: 0;
   color: #fff;
 }
@@ -304,6 +308,24 @@ body {
 #portfolio .thumb {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+#portfolio .gallery {
+  margin: 10px 50px;
+}
+
+#portfolio .gallery img {
+  -webkit-transition: 1s;
+  transition: 1s;
+  padding: 15px;
+  width: 200px;
+}
+
+#portfolio .gallery img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 footer.footer {
@@ -382,11 +404,11 @@ a:hover, a:focus, a:active {
 }
 
 .text-primary {
-  color: #1D809F !important;
-  font-family: 'Great Vibes', cursive !important;
+  color: white !important;
+  font-family: 'Tangerine', cursive;
 }
 
 .text-secondary {
   color: white !important;
-  font-family: 'Great Vibes', cursive !important;
+  font-family: "Helvetica Neue", serif;
 }

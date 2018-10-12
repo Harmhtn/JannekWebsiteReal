@@ -4,7 +4,7 @@
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -14,7 +14,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Cinzel|Euphoria+script|Josefin+Slab" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Cinzel|Euphoria+script|Josefin+Slab|Tangerine:700" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Parisienne|Tangerine" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
       <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -23,17 +23,11 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel ="stylesheet">
-    <script>
+    <link href="css/lightbox.min.css" rel ="stylesheet">
+    <script src="js/lightbox-plus-jquery.min.js">
     </script>
       <style>
 
-
-          /* Make the image fully responsive */
-          .carousel-inner img {
-              margin:0;
-              max-width: 50%;
-          }
       </style>
 
   </head>
@@ -66,22 +60,24 @@
 
     <!-- Header -->
     <header class="masthead d-flex">
-      <div class="container text-center my-auto">
-        <h1 id="jvs" class="mb-1">Janneke van Slooten</h1>
-        <h1 id="sio" class="mb-5">
+        <div class="container text-center my-auto">
+        <h1 class="text-primary mb-1" id="jvs">
+            Janneke van Slooten
+        </h1>
+        <h1 class="text-primary mb-5" id="sio">
           schilderen in Opdracht
         </h1>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Kijk verder</a>
+        <a class="btn btn-primary btn-xl mb-1 js-scroll-trigger" href="#about">Kijk verder</a>
       </div>
       <div class="overlay"></div>
     </header>
 
     <!-- About -->
-    <section class="content-section "  id="about" >
+    <section class="content-section"  id="about" >
       <div class="container text-center">
         <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h1>Meer over mijzelf!</h1>
+          <div class="text-primary col-lg-10 mx-auto">
+            <h1>Meer over mijzelf</h1>
             <p class="lead mb-5">
                 <div class="embed-responsive embed-responsive-16by9">
                 <br>
@@ -99,7 +95,10 @@
     <section class="content-section text-white text-center" id="services">
       <div class="container">
         <div class="content-section-heading">
-          <h1 class="text-secondary mb-5">Workshops</h1>
+          <h1 class="text-primary mb-1">Workshops</h1>
+                    <p>Bent u op zoek naar een creatieve invulling , voor een gezellig samenzijn met bijvoorbeeld familie, vrienden, collega's of voor een vrouwenbijeenkomst. Dan bent u bij mij aan het juiste adres, ik kan u een compleet verzorgde workshop geven inclusief al het materiaal (max 50 personen). Ook bied ik de mogelijkheid om bijvoorbeeld op vrouwenbijeekomsten te spreken over mijn werk in Opdracht. Opdracht is niet voor niets met een hoofdletter geschreven. Ik probeer d.m.v. mijn werk, Gods naam op een creatieve manier groot te maken.</p>
+                </div>
+            </div>
         </div>
 
         <div class="row">
@@ -140,158 +139,50 @@
           </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="container text-center my-auto">
-                <p>Bent u op zoek naar een creatieve invulling , voor een gezellig samenzijn met bijvoorbeeld familie , vrienden ,collegas of voor een vrouwenbijeenkomst.
-                    Dan bent u bij mij aan het juiste adres, ik kan u een compleet verzorgde workshop geven inclusief al het materiaal (max 50 personen).
-                    Ook bied ik de mogelijkheid om bijvoorbeeld op vrouwenbijeekomsten te spreken over mijn werk in Opdracht.
-                    Opdracht is niet voor niets met een hoofdletter geschreven, ik probeer d.m.v. mijn werk Gods naam groot te maken op een creatieve manier.</p>
-            </div>
-      </div>
     </section>
 
 
 
     <!-- Portfolio -->
     <section class="content-section text-white text-center bg-dark" id="portfolio">
-        <div class="container">
-            <div class="content-section-heading">
-                <h1 class="text-secondary mb-5">Portfolio</h1>
-            </div>
-        <div class="container">
-            <div class="row">
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
-                           data-image="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                           data-target="#image-gallery">
-                            <img class="img-thumbnail"
-                                 src="/img/Schilderijen/schilderij9.jpg"
-                                 alt="Another alt text">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
-                           data-image="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                           data-target="#image-gallery">
-                            <img class="img-thumbnail"
-                                 src="/img/Schilderijen/schilderij9.jpg"
-                                 alt="Another alt text">
-                        </a>
-                    </div>
+        <div class="content-section-heading">
+        <h1 class="text-primary mb-5">Portfolio</h1>
+        <div class="gallery">
+            <!--Schilderijen-->
+            <a href="img/Schilderijen/schilderij1.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij1small.jpg"></a>
+            <a href="img/Schilderijen/schilderij2.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij2small.jpg"></a>
+            <a href="img/Schilderijen/schilderij3.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij3small.jpg"></a>
+            <a href="img/Schilderijen/schilderij4.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij4small.jpg"></a>
+            <a href="img/Schilderijen/schilderij5.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij5small.jpg"></a>
+            <a href="img/Schilderijen/schilderij6.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij6small.jpg"></a>
+            <a href="img/Schilderijen/schilderij7.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij7small.jpg"></a>
+            <a href="img/Schilderijen/schilderij8.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij8small.jpg"></a>
+            <a href="img/Schilderijen/schilderij9.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij9small.jpg"></a>
+            <a href="img/Schilderijen/schilderij10.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij10small.jpg"></a>
+            <a href="img/Schilderijen/schilderij12.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij12small.jpg"></a>
+            <a href="img/Schilderijen/schilderij13.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij13small.jpg"></a>
+            <a href="img/Schilderijen/schilderij14.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij14small.jpg"></a>
+            <a href="img/Schilderijen/schilderij15.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij15small.jpg"></a>
 
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
-                           data-image="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                           data-target="#image-gallery">
-                            <img class="img-thumbnail"
-                                 src="/img/Schilderijen/schilderij9.jpg"
-                                 alt="Another alt text">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Test1"
-                           data-image="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                           data-target="#image-gallery">
-                            <img class="img-thumbnail"
-                                 src="/img/Schilderijen/schilderij9.jpg"
-                                 alt="Another alt text">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
-                           data-image="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                           data-target="#image-gallery">
-                            <img class="img-thumbnail"
-                                 src="/img/Schilderijen/schilderij9.jpg"
-                                 alt="Another alt text">
-                        </a>
-                    </div>
+
+            <!--Biblejournaling-->
+            <a href="img/Biblejournaling/biblejournaling1.jpg" data-lightbox="mygallery2" data-title="Biblejournaling"><img src="img/Biblejournaling/biblejournaling1small.jpg"></a>
+            <a href="img/Biblejournaling/biblejournaling2.jpg" data-lightbox="mygallery2" data-title="Biblejournaling"><img src="img/Biblejournaling/biblejournaling2small.jpg"></a>
+            <a href="img/Biblejournaling/biblejournaling3.jpg" data-lightbox="mygallery2" data-title="Biblejournaling"><img src="img/Biblejournaling/biblejournaling3small.jpg"></a>
+            <a href="img/Biblejournaling/biblejournaling4.jpg" data-lightbox="mygallery2" data-title="Biblejournaling"><img src="img/Biblejournaling/biblejournaling4small.jpg"></a>
+            <a href="img/Biblejournaling/biblejournaling5.jpg" data-lightbox="mygallery2" data-title="Biblejournaling"><img src="img/Biblejournaling/biblejournaling5small.jpg"></a>
+
+            <!--Handlettering-->
+            <a href="img/Handlettering/handlettering1.jpg" data-lightbox="mygallery3" data-title="Handlettering"><img src="img/Handlettering/handlettering1small.jpg"></a>
+            <a href="img/Handlettering/handlettering3.jpg" data-lightbox="mygallery3" data-title="Handlettering"><img src="img/Handlettering/handlettering3small.jpg"></a>
+            <a href="img/Handlettering/handlettering4.jpg" data-lightbox="mygallery3" data-title="Handlettering"><img src="img/Handlettering/handlettering4small.jpg"></a>
+            <a href="img/Handlettering/handlettering6.jpg" data-lightbox="mygallery3" data-title="Handlettering"><img src="img/Handlettering/handlettering6small.jpg"></a>
+            <a href="img/Handlettering/handlettering7.jpg" data-lightbox="mygallery3" data-title="Handlettering" ><img src="img/Handlettering/handlettering7small.jpg"></a>
 
 
 
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
-                           data-image="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                           data-target="#image-gallery">
-                            <img class="img-thumbnail"
-                                 src="/img/Schilderijen/schilderij9.jpg"
-                                 alt="Another alt text">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
-                           data-image="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                           data-target="#image-gallery">
-                            <img class="img-thumbnail"
-                                 src="/img/Schilderijen/schilderij9.jpg"
-                                 alt="Another alt text">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
-                           data-image="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                           data-target="#image-gallery">
-                            <img class="img-thumbnail"
-                                 src="/img/Schilderijen/schilderij9.jpg"
-                                 alt="Another alt text">
-                        </a>
-                    </div>
 
-
-
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
-                           data-image="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                           data-target="#image-gallery">
-                            <img class="img-thumbnail"
-                                 src="/img/Schilderijen/schilderij9.jpg"
-                                 alt="Another alt text">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
-                           data-image="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                           data-target="#image-gallery">
-                            <img class="img-thumbnail"
-                                 src="/img/Schilderijen/schilderij9.jpg"
-                                 alt="Another alt text">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
-                           data-image="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                           data-target="#image-gallery">
-                            <img class="img-thumbnail"
-                                 src="/img/Schilderijen/schilderij9.jpg"
-                                 alt="Another alt text">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="image-gallery-title"></h4>
-                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <img id="image-gallery-image" class="img-responsive col-md-12" src="">
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
-                                </button>
-
-                                <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
         </div>
     </section>
 
@@ -300,9 +191,9 @@
     <!-- Call to Action -->
     <section class="content-section text-white" id="contactpagina">
       <div class="container text-center">
-        <h1 class="text-secondary mb-4">Voor meer informatie neem vrijblijvend contact met mij op</h1>
-        <a href="https://wa.me/<31622702784>" target=_blank class="btn btn-xl btn-light">Stuur me een berichtje</a>
-          <a href="mailto:Jannekevsl@gmail.com" target=_blank class="btn btn-xl btn-light">Stuur me een mailtje</a>
+        <h1 class="text-primary mb-4">Voor meer informatie neem vrijblijvend contact met mij op</h1>
+        <a href="https://wa.me/<31622702784>" target=_blank class="btn btn-xl btn-light mb-1">Stuur me een bericht</a>
+          <a href="mailto:Jannekevsl@gmail.com" target=_blank class="btn btn-xl btn-light mb-1">Stuur me een mail</a>
       </div>
     </section>
 
@@ -317,7 +208,7 @@
 
     <!-- Footer -->
     <footer class="footer text-center">
-        <h2 class="text-secondary mb-4">Social links</h2>
+        <h1 class="text-primary mb-1">Social links</h1>
         <div class="container">
             <ul class="list-inline mb-5">
                 <li class="list-inline-item">
@@ -331,7 +222,7 @@
                     </a>
                 </li>
             </ul>
-            <h3 class="text-muted medium mb-0">Copyright &copy; Harmhtn 2018</h3>
+            <h4 class="text-muted medium mb-1">Copyright &copy; Harmhtn 2018</h4>
         </div>
     </footer>
 

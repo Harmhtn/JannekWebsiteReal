@@ -20,11 +20,14 @@ body {
 }
 
 .content-section-heading {
+  h1{
+    font-size: 5.9vw;
+  }
   h2 {
-    font-size: 3rem;
+    font-size: 3.0vh;
   }
   h3 {
-    font-size: 1rem;
+    font-size: 1vmin;
     text-transform: uppercase;
   }
 }
@@ -99,4 +102,5 @@ h6 {
 #portfolio {
   color: white;
 }
+
 
