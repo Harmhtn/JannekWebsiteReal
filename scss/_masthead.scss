@@ -10,8 +10,13 @@ body {
   background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/Backgrounds/achtergrond11.jpg');
   background-position: center center;
   background-size: cover;
+  filter: gray(20);
 
 }
+  .masthead-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0,5);
+  }
   #jvs {
     font-family: 'Tangerine', cursive;
     font-size: 160px;
@@ -26,6 +31,7 @@ body {
     border-bottom: 5px solid black;
 
   }
+
 
   @media (min-width: 992px) {
     height: 100vh;
