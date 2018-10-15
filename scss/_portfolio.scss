@@ -4,7 +4,7 @@ body {
   color: $white;
 }
 #portfolio {
-  background-image: url('/img/Backgrounds/achtergrond12.jpg');
+  background-image: url('/img/Backgrounds/achtergrond12-min.jpg');
   background-size: cover;
 
   .btn:focus, .btn:active, button:focus, button:active {
@@ -25,8 +25,8 @@ body {
   }
   .gallery img{
     transition: 1s;
-    padding: 15px;
-    width: 200px;
+    padding: 5px;
+    width: 100px;
   }
   .gallery img:hover{
     filter: grayscale(100%);

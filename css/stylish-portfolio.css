@@ -302,7 +302,7 @@ body {
 }
 
 #portfolio {
-  background-image: url("/img/Backgrounds/achtergrond12.jpg");
+  background-image: url("/img/Backgrounds/achtergrond12-min.jpg");
   background-size: cover;
 }
 
@@ -328,8 +328,8 @@ body {
 #portfolio .gallery img {
   -webkit-transition: 1s;
   transition: 1s;
-  padding: 15px;
-  width: 200px;
+  padding: 5px;
+  width: 100px;
 }
 
 #portfolio .gallery img:hover {
