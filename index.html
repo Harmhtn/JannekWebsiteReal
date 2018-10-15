@@ -58,7 +58,7 @@
       </ul>
     </nav>
 
-    <header class="masthead d-flex">
+    <header class="masthead d-flex" name="page-top">
         <div class="container" id="titlecontainer">
         <div class="container text-center">
         <div class="title-primary">
@@ -74,7 +74,7 @@
 
 
     <!-- About -->
-    <section class="content-section"  id="about" >
+    <section class="content-section"  id="about" name="about">
       <div class="container text-center">
         <div class="row">
           <div class="text-primary col-lg-10 mx-auto">
@@ -93,7 +93,7 @@
     <!-- Services -->
     <section class="content-section text-white text-center" id="services">
       <div class="container">
-        <div class="content-section-heading">
+        <div class="content-section-heading" name="services">
           <h1 class="text-primary mb-1">Workshops</h1>
                     <p class="lead">Bent u op zoek naar een creatieve invulling , voor een gezellig samenzijn met bijvoorbeeld familie, vrienden, collega's of voor een vrouwenbijeenkomst. Dan bent u bij mij aan het juiste adres, ik kan u een compleet verzorgde workshop geven inclusief al het materiaal (max 50 personen). Ook bied ik de mogelijkheid om bijvoorbeeld op vrouwenbijeekomsten te spreken over mijn werk in Opdracht. Opdracht is niet voor niets met een hoofdletter geschreven. Ik probeer d.m.v. mijn werk, Gods naam op een creatieve manier groot te maken.</p>
                 </div>
@@ -101,43 +101,39 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" >
-            <span class="service-icon rounded-circle mx-auto mb-3" id="serviceschilderen">
-                <i class="icon-picture"></i>
-            </span>
-            <h3>
-             <em>Schilderen</em>
-            </h3>
-          </div>
+          <div class="col" >
 
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" >
-            <span class="service-icon rounded-circle mx-auto mb-3" id="servicehandlettering">
-            <i class="icon-pencil"></i>
-            </span>
-            <h3>
-              <em>Handlettering</em>
-            </h3>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="service-icon rounded-circle mx-auto mb-3" id="servicebiblejournaling">
-                <i class="icon-note"></i>
-            </span>
-            <h3>
-              <em>Biblejournaling</em>
-            </h3>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <span class="service-icon rounded-circle mx-auto mb-3"  id="servicegastspreekster">
-                <i class="icon-user-female"></i>
-            </span>
-            <h3>
-              <em>Gastspreekster</em>
-            </h3>
-          </div>
+            <button type="button" class="service-icon rounded-circle mx-auto mb-3" id="serviceschilderen" data-toggle="collapse" data-target="#info1"><i class="icon-picture"></i></button>
+              <h3> <em>Schilderen</em></h3>
+            <div id="info1" class="collapse1">
+                Schilderen doe je met een kwast
             </div>
-        </div>
+
+              <div class=" col" >
+              <button type="button" class="service-icon rounded-circle mx-auto mb-3" id="servicehandlettering" data-toggle="collapse" data-target="#info2"><i class="icon-pencil"></i></button>
+              <h3> <em>Handlettering</em></h3>
+              <div id="info2" class="collapse">
+                  Handlettering met een pen
+              </div>
+
+                  <div class= " col" >
+              <button type="button" class="service-icon rounded-circle mx-auto mb-3" id="servicebiblejournaling" data-toggle="collapse" data-target="#info3"><i class="icon-note"></i></button>
+              <h3> <em>Biblejournaling</em></h3>
+              <div id="info3" class="collapse">
+                  Hier heb je een bijbel voor nodig
+              </div>
+
+                      <div class=" col" >
+              <button type="button" class="service-icon rounded-circle mx-auto mb-3" id="servicegastspreekster" data-toggle="collapse" data-target="#info4"><i class="icon-user-female"></i></button>
+              <h3> <em>Gastspreekster</em></h3>
+              <div id="info4" class="collapse">
+                  bladiebla
+              </div>
+                        </div>
+                     </div>
+                  </div>
+              </div>
+            </div>
     </section>
 
 
@@ -146,7 +142,7 @@
     <section class="content-section text-white text-center bg-dark" id="portfolio">
         <div class="content-section-heading">
         <h1 class="text-primary mb-5">Portfolio</h1>
-        <div class="gallery">
+        <div class="gallery" name="portfolio">
             <!--Schilderijen-->
             <a href="img/Schilderijen/schilderij1-min.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij1small.jpg"></a>
             <a href="img/Schilderijen/schilderij2-min.jpg" data-lightbox="mygallery" data-title="Schilderij"><img src="img/Schilderijen/schilderij2small.jpg"></a>
@@ -190,8 +186,8 @@
     <!-- Call to Action -->
     <section class="content-section text-white" id="contactpagina">
       <div class="container-fluid text-center">
-        <h1 class="text-primary mb-4">Voor meer informatie neem vrijblijvend contact met mij op</h1>
-        <a href="https://wa.me/<31622702784>" target=_blank class="btn btn-xl btn-primary mb-1">Stuur me een bericht</a>
+        <h1 class="text-primary mb-4" name="contact" >Voor meer informatie neem vrijblijvend contact met mij op</h1>
+        <a href="https://wa.me/31622702784" target=_blank class="btn btn-xl btn-primary mb-1">Stuur me een bericht</a>
           <a href="mailto:Jannekevsl@gmail.com" target=_blank class="btn btn-xl btn-primary mb-1">Stuur me een mail</a>
       </div>
     </section>
@@ -223,9 +219,11 @@
             </ul>
             <p class="text-muted medium mb-1">Copyright &copy; Harmhtn 2018</p>
         </div>
+
     </footer>
 
     <!-- Scroll to Top Button-->
+
     <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
       <i class="fas fa-angle-up"></i>
     </a>
@@ -239,7 +237,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
-    <script src="js/lightbox.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 
 
 
