@@ -9,15 +9,15 @@ a {
 }
 
 .btn-primary {
-  background-color: $primary !important;
+  background-image: url("/img/Backgrounds/solidblue.jpeg") !important;
   border-color: $primary !important;
   color: white !important;
   font-family: Arial !important;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($primary, 10%) !important;
-    border-color: darken($primary, 10%) !important;
+    background-color: darken(white, 20%) !important;
+    border-color: darken(white, 20%) !important;
   }
 }
 

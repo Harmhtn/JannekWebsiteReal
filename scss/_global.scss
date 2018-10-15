@@ -2,6 +2,10 @@ body,
 html {
   width: 100%;
   height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+
 }
 
 body {
@@ -94,7 +98,7 @@ h6 {
   background-color: #a64e53;
 }
 #about{
-  background-image: url("/img/Backgrounds/achtergrond1.jpg");
+  background-image: url("/img/Backgrounds/achtergrond1-min.jpg");
   background-size: cover;
   color: white;
 }

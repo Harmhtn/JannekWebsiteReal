@@ -1,34 +1,46 @@
 body {
 .masthead {
-  min-height: 30rem;
   position: relative;
-  display: table;
+  display: block;
   width: 100%;
   height: 100%;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/Backgrounds/achtergrond11.jpg');
+  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/Backgrounds/achtergrond11-min.jpg');
   background-position: center center;
   background-size: cover;
 
 }
 
-  #jvs {
+  .title-primary {
     font-family: 'Tangerine', cursive;
-    font-size: 160px;
-    color: #ffcb00;
+    font-size: 10rem;
+    color: black;
+    border: solid 3px;
+    background-image: url("/img/Backgrounds/solidyellow.jpeg");
+
+
 
 
   }
-  #sio {
-    color: black;
+  .title-secondary {
+    color: white;
     font-family: 'Cinzel', serif;
-    font-size: 50px;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    font-size: 4rem;
+    border-left: solid 3px;
+    border-right: solid 3px;
+    border-bottom: solid 3px;
+    border-color: black;
     background-image: url("/img/Backgrounds/solidblue.jpeg");
 
   }
+
+  #titlecontainer {
+    position:relative;
+    display:table;
+    margin: auto;
+
+  }
+
+
 
 
   @media (min-width: 992px) {
