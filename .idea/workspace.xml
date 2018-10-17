@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="858ab628-8637-4bef-8fff-ac114f2a3867" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/portfolio.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylish-portfolio.css" afterPath="$PROJECT_DIR$/css/stylish-portfolio.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylish-portfolio.min.css" afterPath="$PROJECT_DIR$/css/stylish-portfolio.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/stylish-portfolio.js" afterPath="$PROJECT_DIR$/js/stylish-portfolio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_portfolio.scss" afterPath="$PROJECT_DIR$/scss/_portfolio.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_sidebar.scss" afterPath="$PROJECT_DIR$/scss/_sidebar.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +47,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="72" column="42" lean-forward="true" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+            <state relative-caret-position="288">
+              <caret line="136" column="94" lean-forward="false" selection-start-line="136" selection-start-column="94" selection-end-line="136" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -392,12 +385,12 @@
       <workItem from="1539598405784" duration="5396000" />
       <workItem from="1539609252871" duration="18653000" />
       <workItem from="1539763485232" duration="10044000" />
-      <workItem from="1539778497187" duration="10016000" />
+      <workItem from="1539778497187" duration="10419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120678000" />
+    <option name="totallyTimeSpent" value="121081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -768,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="72" column="42" lean-forward="true" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+        <state relative-caret-position="288">
+          <caret line="136" column="94" lean-forward="false" selection-start-line="136" selection-start-column="94" selection-end-line="136" selection-end-column="94" />
           <folding />
         </state>
       </provider>
