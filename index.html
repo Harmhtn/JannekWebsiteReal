@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="offline.caching" lang="en">
+<html manifest="manifest.appcache" lang="en">
 
   <head>
 
@@ -25,11 +25,11 @@
 
     <!-- Custom CSS -->
         <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-        <link href="css/agency.min.css" rel="stylesheet">
         <link href="css/lightbox.min.css" rel ="stylesheet">
-        <script src="js/lightbox-plus-jquery.min.js">
-        </script>
-      <style>
+        <link rel="stylesheet" href="vendor/freebie/assets/demo.css">
+        <link rel="stylesheet" href="vendor/freebie/assets/navigation-round.css">
+        <link rel="stylesheet" href="vendor/freebie/assets/slicknav/slicknav.min.css">
+        <style>
 
       </style>
 
@@ -65,7 +65,7 @@
     </nav>
 
     <header class="masthead d-flex">
-        <div class="container text-center" id="titlecontainer">
+        <div class="container text-center my-auto" id="titlecontainer">
         <div class="title-primary">
             <a href="#page-top"></a>
             <h1>Janneke van Slooten</h1>
@@ -73,6 +73,7 @@
         <div class="title-secondary mb-5">
             <h2>Schilderen in Opdracht</h2>
         </div>
+            <div class="overlay"></div>
         </div>
 
 
@@ -87,7 +88,7 @@
               <a href="#about"></a>
             <h1>Meer over mijzelf</h1>
             <p class="lead mb-5">
-                <div class="embed-responsive embed-responsive-16by9">
+                <div class="embed-responsive embed-responsive-16by9 mb-5">
                 <br>
                 <iframe width="960" height="515" src="https://www.youtube.com/embed/ZEiKTJG66uI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -270,6 +271,7 @@
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
+
 
 
 

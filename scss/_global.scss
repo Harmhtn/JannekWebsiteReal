@@ -68,7 +68,7 @@ h6 {
 
 // Scroll to top button
 .scroll-to-top {
-  position: absolute;
+  position: fixed;
   right: 15px;
   bottom: 15px;
 
@@ -94,6 +94,7 @@ h6 {
     font-weight: 800;
   }
 }
+
 #contactpagina{
   background-color: #a64e53;
 }

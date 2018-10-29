@@ -1,9 +1,8 @@
 CACHE MANIFEST
-# v1 17/10/2018
-#scss cache
+#DATE 10/29/2018
+CACHE:
 index.html
 _bootstrap-overrides.scss
-_callout.scss
 _footer.scss
 _global.scss
 _masthead.scss
@@ -12,9 +11,7 @@ _portfolio.scss
 _services.scss
 _sidebar.scss
 _variables.scss
-stylish-portfolio.scss
-
-#image cache
+lightbox-plus-jquery.min.js
 schilderij1-min.jpg
 schilderij2-min.jpg
 schilderij3-min.jpg
@@ -43,9 +40,34 @@ schilderij12small.jpg
 schilderij13small.jpg
 schilderij14small.jpg
 schilderij15small.jpg
-solidblue.jpeg
-achtergrond1-min.jpg
-solidyellow.jpeg
-achtergrond12-min.jpg
+biblejournaling1-min.jpg
+biblejournaling2-min.jpg
+biblejournaling3-min.jpg
+biblejournaling4-min.jpg
+biblejournaling5-min.jpg
+biblejournaling1small.jpg
+biblejournaling2small.jpg
+biblejournaling3small.jpg
+biblejournaling4small.jpg
+biblejournaling5small.jpg
+handlettering1-min.jpg
+handlettering3-min.jpg
+handlettering4-min.jpg
+handlettering6-min.jpg
+handlettering7-min.jpg
+handlettering1small.jpg
+handlettering3small.jpg
+handlettering4small.jpg
+handlettering6small.jpg
+handlettering7small.jpg
 
 
+
+
+
+NETWORK:
+*
+
+
+FALLBACK:
+#static.html
